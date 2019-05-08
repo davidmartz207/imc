@@ -1,0 +1,13 @@
+Esta aplicación se encuentra realizada bajo codeigniter 3 , php 7.2 y mysql 5.7.25 , bajo S.O
+ubuntu 18.04 . He hecho consultas tipo API sencillas para el cumplimiento de las tareas, las mismas están consumidas
+mediante angular js. Se pueden encontrar los controladores de angular en la 
+carpeta assets/js.
+
+En primera instancia descomprimir el archivo icm.zip, posteriormente , el archivo 
+"imc.sql" contiene el modelo de base de datos, fácilmente importable desde 
+mysqlworkbench en la sección server->data import.
+
+Dirigirse a la carpeta de configuración de base de datos (application/config/database.php) 
+y configurar las credenciales de usuario del sistema de base de datos donde haya
+sido colocada la data, una vez realizado esto sólo resta volcar la aplicación en
+la raiz de un servidor para que funcione.
